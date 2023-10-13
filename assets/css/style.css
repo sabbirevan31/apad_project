@@ -9,9 +9,14 @@
 
 :root {
     --font-family: 'Sora';
-    --red: #df472c;
+    --tomato: #df472c;
+    --primary-font-size: 30px;
+    --secondary-font-size: 15px;
+    --white: white;
+    --button-font-size: 14px;
 }
 
+/* navegation section */
 .navbar-nav .nav-link{
     color: var(--red) !important;
 }
@@ -24,13 +29,13 @@
 
 .dropdown-menu {
     width: 300px;
-    border-radius: 0px;
 }
 
 .dropdown-menu .dropdown-item {
     color: tomato;
     border: none;
     border-bottom: 1px solid tomato;
+    font-family: var(--font-family);
 }
 
 .dropdown-menu .dropdown-item:hover {
@@ -39,3 +44,45 @@
     border: none;
     border-bottom: 1px solid tomato;
 }
+/* navegation section */
+
+/* hero section */
+
+.about_missoin {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.about_img img {
+    width: 80%;
+}
+
+.about_head {
+    color: var(--tomato);
+    font-family: var(--font-family);
+    border-bottom: 2px solid var(--tomato);
+    width: 28%;
+    font-size: var(--primary-font-size);
+}
+
+.about_paragraph {
+    line-height: 2rem;
+    font-size: var(--secondary-font-size);
+    font-family: var(--font-family);
+}
+
+.about_button {
+    background-color: var(--tomato);
+    color: var(--white);
+    border: none;
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+
+.about_button a {
+    font-family: var(--font-family);
+    text-decoration: none;
+    color: var(--white);
+    font-size: var(--button-font-size);
+}
+/* hero section */
