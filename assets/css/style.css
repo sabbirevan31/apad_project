@@ -102,5 +102,29 @@
     color: var(--tomato);
     padding-bottom: 30px;
 }
-
 /* anniversary section */
+
+/* activity section start */
+#activity {
+    padding: 60px 0px;
+}
+
+.activity_img {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.activity-head {
+    color: var(--tomato);
+    font-family: var(--font-family);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.activity_content p {
+    font-family: var(--font-family);
+    font-size: var(--secondary-font-size);
+    padding-top: 10px;
+}
+/* activity section end */
