@@ -10,9 +10,20 @@
     <!-- bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- bootstrap link -->
+
     <!-- javascript link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <!-- javascript link -->
+
+        <!-- owl carousel -->
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap.min.css" />
+    <!-- owl carousel -->
+
     <!-- icon link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- icon link -->
@@ -22,7 +33,7 @@
     <nav class="navbar navbar-expand-lg" style="border-bottom: 1px solid red;">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="./assets/img/home/logo/apad-logo.png" alt="">
+                <img src="./assets/img/home/apad-logo.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -95,13 +106,13 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./assets/img/home/hero_img/chicago.jpg" alt="" class="d-block" style="width: 100%;">
+                <img src="./assets/img/home/chicago.jpg" alt="" class="d-block" style="width: 100%;">
             </div>
             <div class="carousel-item">
-                <img src="./assets/img/home/hero_img/la.jpg" alt="" class="d-block" style="width: 100%;">
+                <img src="./assets/img/home/la.jpg" alt="" class="d-block" style="width: 100%;">
             </div>
             <div class="carousel-item">
-                <img src="./assets/img/home/hero_img/ny.jpg" alt="" class="d-block" style="width: 100%;">
+                <img src="./assets/img/home/ny.jpg" alt="" class="d-block" style="width: 100%;">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
@@ -115,35 +126,103 @@
     <!-- hero section end -->
 
     <!-- about section start -->
-    <div class="about_section">
+    <div class="about">
         <div class="container">
-            <div class="about_content">
-                <h2 class="about_head">About Us</h2>
-                <div class="about_paragraph">
+            <div class="about_content row">
+                <div class="about_testimonial col-lg-6">
+                    <h2 class="about_head">About Us</h2>
                     <p>
-                        The Asia Pacific Alliance for Disaster Management Bangladesh (A-PAD Bangladesh)<br>was established in February 2018 as a platform in Bangladesh for<br>the A-PAD alliance, where the main focus is to build tolerance and resilience to<br> disasters in the communities of Bangladesh. Furthermore, A-PAD Bangladesh,<br>with the collaboration with A-PAD and the help of the Ministry of Foreign Affairs<br>(MoFA) are jointly working on building capacity for the establishment and<br>sustainability of a multi-sectoral platform for disaster management where we<br>facilitate cooperation amongst Government officials, NGO's, private sectors, and<br>civil society during and after a disaster. Its main aim is to promote coordination,<br>sharing of information, and collaboration among the partners for disaster risk<br>management.
+                        The Asia Pacific Alliance for Disaster Management Bangladesh (A-PAD Bangladesh) was established in February 2018 as a platform in Bangladesh for the A-PAD alliance, where the main focus is to build tolerance and resilience to  disasters in the communities of Bangladesh. Furthermore, A-PAD Bangladesh, with the collaboration with A-PAD and the help of the Ministry of Foreign Affairs (MoFA) are jointly working on building capacity for the establishment and sustainability of a multi-sectoral platform for disaster management where we facilitate cooperation amongst Government officials, NGO's, private sectors, and civil society during and after a disaster. Its main aim is to promote coordination, sharing of information, and collaboration among the partners for disaster risk management.
                     </p>
+                    <button class="about_button"><a href="#">Read More</a></button>
                 </div>
-                <div class="about_Iframes"></div>
-                <button class="about_button"><a href="#">Read More</a></button>
-            </div>
-            <h2 class="about_head">Mission & Vission</h2>
-            <div class="about_missoin">
-                
-                <div class="about_paragraph">
-                    <p>To build a safer community by reducing the risk to a natural disaster through the<br>development of efficient emergency response.Our mission is to develop<br>networks to appropriately coordinate disaster risk reduction and management<br>alliance with the communities and other stakeholders domestically and<br>internationally: develop and enhance sustainable disaster risk management<br>capacities and mechanism; raise awareness and exchange of information of<br>disaster risk management expertise and experience; to conduct training to<br>develop the local's skills.</p>
-                </div>
-                <div class="about_img">
-                    <img src="./assets/img/home/about_img/missionc-4-01-low-resulation.png" alt="">
+                <div class="about_video col-lg-6">
+                    <iframe width="500" height="270" src="https://www.youtube.com/embed/Cn4G2lZ_g2I?si=8F9eZjAdpVubLmkX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 
             </div>
-            <button class="about_button"><a href="#">Read More</a></button>
+            <div class="about_missoin row">  
+                <div class="about_testimonial col-lg-6">
+                    <h2 class="about_head">Mission & Vission</h2>
+                    <p>To build a safer community by reducing the risk to a natural disaster through the development of efficient emergency response.Our mission is to develop networks to appropriately coordinate disaster risk reduction and management alliance with the communities and other stakeholders domestically and internationally: develop and enhance sustainable disaster risk management capacities and mechanism; raise awareness and exchange of information of disaster risk management expertise and experience; to conduct training to develop the local's skills.</p>
+                    <button class="about_button"><a href="#">Read More</a></button>
+                </div>
+                <div class="about_img col-lg-6">
+                    <img src="./assets/img/home/misiion-vision-934x1024.png" alt="">
+                </div>
+                
+            </div>
         </div>
     </div>
     <!-- about section end -->
 
     <!-- anniversary section -->
+    <section id="testimonial">
+        <div class="container">
+            <h2 class="anniversary_head">A-PAD 10th anniversary</h2>
+            <div class="row">
+                <div id="slider" class="owl-carousel">
+                    
+                    <div class="content-area">
+                        <div class="content">
+                            <div class="img-area">
+                                <img src="./assets/img/home/Speaker-Card-Md-Golam-Mostofa-768x751.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-area">
+                        <div class="content">
+                            <div class="img-area">
+                                <img src="./assets/img/home/Speaker-Card-Prof.-Quazi-Quamruzzaman-768x761.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-area">
+                        <div class="content">
+                            <div class="img-area">
+                                <img src="./assets/img/home/Speaker-Card-Shahadat-Hossain-768x754.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
     <!-- anniversary section -->
+
+    <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <!-- script -->
+
+    <!-- activity section start -->
+    <section id="activity">
+        <div class="container">
+            <div class="row">
+                <div id="slider" class="owl-carousel">
+                    <div class="content-area">
+
+                        <div class="activity_content">
+                            <div class="activity_img">
+                                <div class="img-area">
+                                    <h2>ACTIVIY </h2>
+                                </div>
+                                <div class="img-area"></div>
+                            </div>
+                            <div class="activity_info">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- activity section start -->
 </body>
 </html>

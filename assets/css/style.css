@@ -10,7 +10,7 @@
 :root {
     --font-family: 'Sora';
     --tomato: #df472c;
-    --primary-font-size: 30px;
+    --primary-font-size: 26px;
     --secondary-font-size: 15px;
     --white: white;
     --button-font-size: 14px;
@@ -46,37 +46,43 @@
 }
 /* navegation section */
 
-/* hero section */
+/* about section */
+.about {
+    padding: 80px 0px;
+}
+
 
 .about_missoin {
-    display: grid;
-    grid-template-columns: auto auto;
+    padding-top: 30px;
 }
 
 .about_img img {
-    width: 80%;
+    width: 70%;
 }
 
 .about_head {
     color: var(--tomato);
     font-family: var(--font-family);
-    border-bottom: 2px solid var(--tomato);
-    width: 28%;
     font-size: var(--primary-font-size);
 }
 
-.about_paragraph {
+.about_testimonial {
     line-height: 2rem;
     font-size: var(--secondary-font-size);
     font-family: var(--font-family);
+    margin-top: 20px;
 }
 
+.about_video {
+    padding-top: 80px;
+}
 .about_button {
     background-color: var(--tomato);
     color: var(--white);
     border: none;
-    padding: 10px 10px;
+    padding: 5px 10px;
     border-radius: 3px;
+    margin-top: 10px;
 }
 
 .about_button a {
@@ -85,4 +91,16 @@
     color: var(--white);
     font-size: var(--button-font-size);
 }
-/* hero section */
+/* about section */
+
+
+
+/* anniversary section */
+.anniversary_head {
+    font-family: var(--font-family);
+    font-size: var(--primary-font-size);
+    color: var(--tomato);
+    padding-bottom: 30px;
+}
+
+/* anniversary section */
