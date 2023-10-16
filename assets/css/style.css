@@ -26,6 +26,8 @@
 /* navegation section */
 .navbar-nav .nav-link{
     color: var(--tomato) !important;
+    font-size: 17px;
+    padding: 10px;
 }
 .navbar-nav .nav-link:hover{
     color: black !important;
@@ -49,7 +51,9 @@
 
 }
 
-
+.navbar-brand img {
+    padding: 0;
+}
   
 .nav-item a {
     position: relative;
@@ -343,4 +347,80 @@
 
 /* about section end */
 /* about html */
+
+/* activity html */
+#activity-section {
+    padding: 60px 0px;
+}
+.activity-main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.activity_img img {
+    width: 100%;
+}
+.content-area {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.activity-content h2{
+    font-family: var(--font-family);
+    font-size: 18px;
+}
+
+.activity-content h2 a{
+    font-family: var(--font-family);
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.activity-content h2 a:hover{
+    color: var(--tomato);
+}
+
+.activity-content ul {
+    display: flex;
+}
+.activity-content ul li{
+    font-family: var(--font-family);
+    font-size: var(--secondary-font-size);
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+.activity-content ul li a{
+    font-family: var(--font-family);
+    font-size: var(--secondary-font-size);
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    color: black;
+}
+
+.activity-content ul li a:hover{
+    color: var(--tomato);
+}
+
+.activity-content p {
+    font-family: var(--font-family);
+    font-size: var(--secondary-font-size);
+    color: black;
+}
+
+.activity-content p a {
+    font-family: var(--font-family);
+    font-size: var(--secondary-font-size);
+    color: black;
+}
+
+.activity-content p a:hover {
+    color: var(--tomato);
+}
+
+
+/* activity html */
 
