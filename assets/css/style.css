@@ -27,8 +27,9 @@
 .navbar-nav .nav-link{
     color: var(--tomato) !important;
     font-size: 15px;
-    padding: 10px;
+    margin: 10px;
 }
+
 .navbar-nav .nav-link:hover{
     color: black !important;
 }
@@ -75,7 +76,7 @@
     content: "";
     left: 0;
     bottom: 0;
-    height: 3px;
+    height: 2px;
     width: 100%;
     background: var(--tomato);
     transform: scaleX(0);
@@ -100,6 +101,9 @@
 
 .about_img img {
     width: 70%;
+    text-align: center;
+    display: block;
+    margin: auto;
 }
 
 .about_head {
@@ -117,6 +121,7 @@
 
 .about_video {
     padding-top: 80px;
+    text-align: center;
 }
 .about_button {
     background-color: var(--tomato);
@@ -144,6 +149,7 @@
     color: var(--tomato);
     padding-bottom: 30px;
 }
+
 /* anniversary section */
 
 /* activity section start */
@@ -156,6 +162,9 @@
     grid-template-columns: auto auto;
 }
 
+.content {
+    padding: 10px;
+}
 .activity-head {
     color: var(--tomato);
     font-family: var(--font-family);
@@ -168,6 +177,7 @@
     font-size: var(--secondary-font-size);
     padding-top: 10px;
 }
+
 /* activity section end */
 
 /* news section start */
@@ -320,6 +330,10 @@
     font-family: var(--font-family);
     font-size: var(--secondary-font-size);
 }
+
+.footer a:hover{
+    color: var(--white);
+}
 /* footer section end */
 
 
@@ -346,9 +360,10 @@
 
 .about-content img {
     text-align: center;
-    width: 400px;
+    width: 450px;
     display: block;
     margin: auto;
+    object-fit: contain;
     margin-top: 40px;
 }
 /* about section end */
@@ -356,25 +371,31 @@
 
 /* activity html */
 #activity-section {
-    padding: 60px 0px;
+    padding: 40px 0px;
 }
+
 .activity-main {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 10px;
+    gap: 15px;
 }
 
-.activity_img img {
+.activity-img img {
+    object-fit: cover;
     width: 100%;
 }
 .content-area {
-    border: 1px solid black;
-    padding: 5px;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.activity-content {
+    padding: 10px;
 }
 
 .activity-content h2{
     font-family: var(--font-family);
     font-size: 18px;
+    padding-top: 20px;
 }
 
 .activity-content h2 a{
@@ -427,6 +448,89 @@
     color: var(--tomato);
 }
 
+.page-item {
+    padding: 4px;
+    border: none;
+}
 
+.page-item .page-link {
+    border-radius: 0px;
+    color: black;
+    padding: 14px 20px;
+    font-size: 13px;
+}
+
+.page-item .page-link:hover {
+    color: black;
+}
+
+@media only screen and (max-width:1100px) {
+    .activity-main {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 15px;
+    }
+}
+
+@media only screen and (max-width:750px) {
+    .activity-main {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 15px;
+    }
+}
 /* activity html */
+
+/* partners html */
+#partners {
+    padding: 60px 0px;
+}
+
+.partent-card {
+    background-color: rgb(238, 131, 104);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 17px;
+}
+
+.partent-img {
+    background-color: var(--white);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.partent-img img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+.partent-content-area h2{
+    text-align: center;
+    font-size: 19px;
+    padding-top: 10px;
+    font-family: var(--font-family);
+}
+
+.partent-content-area .partent-btn{
+    width: 100%;
+    background-color: var(--white);
+    font-family: var(--font-family);
+    text-decoration: none;
+    font-size: 13px;
+    color: var(--tomato);
+    padding: 10px 90px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+.partent-border {
+    width: 50px;
+    height: 6px;
+    background-color: rgb(218, 63, 35);
+    display: block;
+    margin: auto;
+}
+/* partners html */
 
