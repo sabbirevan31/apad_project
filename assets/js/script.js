@@ -33,3 +33,5 @@ $("#slider1").owlCarousel({
     },
   },
 });
+
+
