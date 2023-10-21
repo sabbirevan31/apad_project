@@ -27,11 +27,8 @@
 .navbar-nav .nav-link{
     color: var(--tomato) !important;
     font-size: 15px;
-<<<<<<< Updated upstream
     margin: 10px;
-=======
-    margin: 7px;
->>>>>>> Stashed changes
+    margin: 10px;
 }
 
 .navbar-nav .nav-link:hover{
@@ -104,7 +101,7 @@
 }
 
 .about_img img {
-    width: 70%;
+    width: 80%;
     text-align: center;
     display: block;
     margin: auto;
@@ -589,8 +586,8 @@
 
 .partner-content {
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 30px;
+    grid-template-columns: 370px 370px 370px;
+    gap: 20px;
 }
 
 .faq {
