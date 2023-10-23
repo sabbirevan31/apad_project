@@ -36,7 +36,7 @@
 }
 
 .dropdown-menu {
-    width: 200px;
+    width: 300px;
 }
 
 .dropdown-menu .dropdown-item {
@@ -518,10 +518,16 @@
     font-family: var(--font-family);
 }
 
+.partners-icon-area {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
 .partners-icon  {
     text-align: center;
     display: block;
     margin: auto;
+    width: 55%;
 }
 
 .partners-icon i {
@@ -650,5 +656,69 @@
         transform: translateY(-10px);
     }
 }
+
+@media only screen and (max-width:900px) {
+    .partner-content {
+        display: grid;
+        grid-template-columns: 370px 370px;
+    }
+
+    .partners-icon-area {
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+    
+
+}
+
+@media only screen and (max-width:650px) {
+    .partner-content {
+        display: grid;
+        grid-template-columns: 350px;
+    }
+
+    .partners-icon-area {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .partners-icon  {
+        display: flex;
+        width: 55%;
+    }
+    
+    
+}
 /* partners html */
+
+/* release section start */
+
+.releasa-img img {
+    width: 100%;
+}
+/* release section end */
+
+/* leaflet html */
+
+#leaflet_hero {
+    background-image: url(..//img/media_center/leaflet/ny.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+#leaflet_hero h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: var(--tomato);
+}
+
+.leaflet-img a img {
+    width: 100%;
+}
+/* leaflet html */
 
