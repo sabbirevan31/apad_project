@@ -656,39 +656,6 @@
         transform: translateY(-10px);
     }
 }
-
-@media only screen and (max-width:900px) {
-    .partner-content {
-        display: grid;
-        grid-template-columns: 370px 370px;
-    }
-
-    .partners-icon-area {
-        display: grid;
-        grid-template-columns: auto auto ;
-    }
-    
-
-}
-
-@media only screen and (max-width:650px) {
-    .partner-content {
-        display: grid;
-        grid-template-columns: 350px;
-    }
-
-    .partners-icon-area {
-        display: grid;
-        grid-template-columns: auto;
-    }
-
-    .partners-icon  {
-        display: flex;
-        width: 55%;
-    }
-    
-    
-}
 /* partners html */
 
 /* release section start */
@@ -717,7 +684,7 @@
     color: var(--tomato);
 }
 
-.leaflet-img a img {
+.leaflet-img img {
     width: 100%;
 }
 /* leaflet html */
