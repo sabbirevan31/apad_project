@@ -721,3 +721,47 @@
     padding: 10px;
 }
 /* ngo html */
+
+/* network html */
+.network_section {
+    padding: 8px 0px;
+}
+
+.network-img img {
+    width: 100%;
+    padding: 10px;
+}
+/* network html */
+
+/* planning html */
+.planning_section {
+    padding: 5px 0px;
+}
+
+.planning-img img {
+    width: 100%;
+    padding: 8px;
+}
+/* planning html */
+
+/* seminar html */
+.seminar_section {
+    padding: 5px 0px;
+}
+
+.seminar-img img {
+    width: 100%;
+    padding: 8px;
+}
+/* seminar html */
+
+/* workshop html */
+.workshop_section {
+    padding: 2px 0px;
+}
+
+.workshop-img img {
+    width: 100%;
+    padding: 8px;
+}
+/* workshop html */
