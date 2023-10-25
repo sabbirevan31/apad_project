@@ -689,3 +689,35 @@
 }
 /* leaflet html */
 
+/* leaflet html */
+.story-img img{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* leaflet html */
+
+/* video html */
+.video-section {
+    padding: 10px 0px;
+}
+.video-content {
+    text-align: center;
+}
+
+.video-content h2 {
+    text-align: center;
+    color: var(--tomato);
+    font-size: var(--primary-font-size);
+    padding: 20px;
+}
+/* video html */
+
+/* ngo html */
+
+.ngo-img img {
+    width: 100%;
+    padding: 10px;
+}
+/* ngo html */
