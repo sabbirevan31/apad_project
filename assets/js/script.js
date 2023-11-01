@@ -19,7 +19,7 @@ $("#slider").owlCarousel({
 $("#slider1").owlCarousel({
   loop: true,
   margin: 15,
-  nav: false,
+  nav: true,
   autoplay: true,
   responsive: {
     0: {

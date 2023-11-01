@@ -29,6 +29,15 @@
     margin: 7px;
 }
 
+.dropend .dropdown-toggle{
+    color: var(--tomato) !important;
+    margin: 7px;
+}
+
+#dropdown_items:hover {
+    color: white !important;
+    background-color: var(--tomato);
+} 
 .navbar-nav .nav-link:hover{
     color: black !important;
 }
@@ -51,6 +60,7 @@
     font-family: var(--font-family);
 }
 
+
 .dropdown-menu .dropdown-item:hover {
     color: rgb(255, 255, 255);
     background-color: tomato;
@@ -61,7 +71,7 @@
 .dropdown:hover > .dropdown-menu {
     display: block;
     margin-top: 0.125em;
-  }
+}
 
 .navbar-brand img {
     padding: 0;
@@ -74,7 +84,8 @@
     display: inline-block;
     text-transform: uppercase;
 }
-  
+ 
+
 .nav-item .navbar-link::before {
     position: absolute;
     content: "";
@@ -87,11 +98,20 @@
     transform-origin: right;
     transition: transform 0.4s linear;
 }
+
 .nav-item .navbar-link:hover::before {
     transform: scaleX(1);
     transform-origin: left;
 }
+
 /* navegation section */
+
+/* hero section start */
+.carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+}
+/* hero section end */
 
 /* about section */
 .about {
@@ -144,8 +164,6 @@
 }
 /* about section */
 
-
-
 /* anniversary section */
 .anniversary_head {
     font-family: var(--font-family);
@@ -184,6 +202,31 @@
 
 /* activity section end */
 
+.owl-dots {
+    text-align: center;
+    margin-top: 2%;
+  }
+  
+  .owl-dot {
+    width: 10px !important;
+    height: 10px !important;
+    background-color: rgb(156, 33, 33) !important;
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 50%;
+    opacity: 0.8;
+  }
+  
+  .owl-dot.active {
+    background-color: var(--navy-blue) !important;
+  }
+  
+  @media screen and (max-width: 990px) {
+    .testimonial-header h1 {
+      font-size: 2em;
+    }
+  }
+
 /* news section start */
 .news_head {
     color: var(--tomato);
@@ -207,7 +250,7 @@
 
 .nav .nav-item {
     background-color: var(--tomato);
-    margin: 10px;
+    margin: 6px;
     color: var(--white);
 }
 
