@@ -653,6 +653,7 @@
     animation: fade 1s ease-in-out;
 }
 
+
 .faq.active i {
     transform: rotate(90deg);
     padding: 10px;
@@ -682,7 +683,7 @@
 @media only screen and (max-width:750px) {
     .partner-content {
         display: grid;
-        grid-template-columns: 370px;
+        grid-template-columns: auto;
         gap: 20px;
     }
 
