@@ -24,11 +24,9 @@
 }
 
 /* navegation section */
-.navbar-nav .nav-link{
+.navbar-nav .navbar-link{
     color: var(--tomato) !important;
-    font-size: 15px;
-    margin: 10px;
-    margin: 10px;
+    margin: 7px;
 }
 
 .navbar-nav .nav-link:hover{
@@ -41,7 +39,7 @@
 
 .dropdown-menu .dropdown-item {
     padding: 10px;
-    font-size: 13px;
+    font-size: 15px;
     margin: 0;
     border-radius: 0px;
 }
@@ -60,11 +58,16 @@
 
 }
 
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+  }
+
 .navbar-brand img {
     padding: 0;
 }
   
-.nav-item a {
+.nav-item .navbar-link {
     position: relative;
     font-size: 18px;
     padding: 5px 0;
@@ -72,7 +75,7 @@
     text-transform: uppercase;
 }
   
-.nav-item a::before {
+.nav-item .navbar-link::before {
     position: absolute;
     content: "";
     left: 0;
@@ -84,7 +87,7 @@
     transform-origin: right;
     transition: transform 0.4s linear;
 }
-.nav-item a:hover::before {
+.nav-item .navbar-link:hover::before {
     transform: scaleX(1);
     transform-origin: left;
 }
@@ -202,23 +205,25 @@
     padding-top: 20px;  
 }
 
-.nav-bar .nav-link{
-    font-size: 14px;
-    padding: 11px 15px;
-    font-family: var(--font-family);
-    color: var(--white);
-}
-
-.nav-bar .nav-item .nav-link:hover{
-    color: var(--white);
-    background-color: #4e4c4c;
-}
-
-.nav-bar .nav-item {
+.nav .nav-item {
     background-color: var(--tomato);
-    border: none;
-    margin: 6px;
-    border-radius: 1px;
+    margin: 10px;
+    color: var(--white);
+}
+
+.nav .nav-item:hover {
+    background-color: rgb(32, 32, 32);;
+    color: var(--white);
+}
+
+.nav .nav-item .nav-link {
+    background-color: var(--tomato);
+    color: var(--white);
+    font-size: 13px;
+}
+.nav .nav-item .nav-link:hover {
+    background-color: rgb(32, 32, 32);;
+    color: var(--white);
 }
 
 .tab-pane img {
@@ -226,21 +231,19 @@
     padding: 8px;
 }
 
-.gallery_btn {
-    background-color: var(--tomato);
-    color: var(--white);
-    border: none;
-    padding: 5px 10px;
-    border-radius: 3px;
+.gallary-button {
+    text-align: center;
     display: block;
     margin: auto;
 }
-
-.gallery_btn a {
+.gallary-button a {
     font-family: var(--font-family);
     text-decoration: none;
+    background-color: var(--tomato);
     color: var(--white);
     font-size: var(--button-font-size);
+    padding: 5px 10px;
+    border-radius: 3px;
 }
 /* photo gallery end */
 
@@ -714,6 +717,7 @@
     justify-content: center;
     font-weight: 800;
     color: var(--tomato);
+    height: 300px;
 }
 
 .leaflet-img img {
@@ -854,6 +858,8 @@
     align-items: center;
     justify-content: center;
     font-weight: 800;
+    font-size: 50px;
+    height: 300px;
     color: var(--tomato);
 }
 
@@ -865,7 +871,7 @@
 .info_content h1{
     text-align: center;
     color: var(--white);
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 600;
 }
 
