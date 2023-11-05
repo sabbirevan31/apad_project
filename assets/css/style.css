@@ -540,10 +540,6 @@
     padding: 60px 0px;
 }
 
-/* .partners-container {
-    margin: auto;
-    width: 1120px;
-} */
 .partner-memders h1 {
     text-align: center;
     color: var(--tomato);
@@ -644,7 +640,7 @@
 
 .partner-content {
     display: grid;
-    grid-template-columns: 370px 370px 370px;
+    grid-template-columns: auto 420px auto;
     gap: 20px;
 }
 
