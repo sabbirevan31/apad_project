@@ -450,6 +450,7 @@
     font-family: var(--font-family);
     font-size: 18px;
     padding-top: 20px;
+    text-align: center;
 }
 
 .activity-content h2 a{
