@@ -208,9 +208,9 @@
   }
   
   .owl-dot {
-    width: 10px !important;
-    height: 10px !important;
-    background-color: rgb(156, 33, 33) !important;
+    width: 7px !important;
+    height: 7px !important;
+    background-color: rgb(112, 109, 109) !important;
     display: inline-block;
     margin: 0 5px;
     border-radius: 50%;
@@ -218,7 +218,7 @@
   }
   
   .owl-dot.active {
-    background-color: var(--navy-blue) !important;
+    background-color: rgb(0, 0, 0) !important;
   }
   
   @media screen and (max-width: 990px) {
