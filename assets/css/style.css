@@ -179,7 +179,6 @@
     padding: 60px 0px;
 }
 
-
 .activity-head {
     color: var(--tomato);
     font-family: var(--font-family);
@@ -206,29 +205,17 @@
     color: var(--tomato);
 }
 
-.activity_content ul {
-    display: flex;
-}
-.activity_content ul li{
-    font-family: var(--font-family);
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-}
-.activity_content ul li a{
+.activity_content span {
     font-family: var(--font-family);
     font-size: 11px;
-    text-decoration: none;
-    list-style: none;
-    padding: 10px;
     color: black;
+    text-align: center;
 }
 
 .activity_content p {
     font-family: var(--font-family);
     font-size: 12px;
     color: black;
-    padding: 10px;
 }
 
 .activity_content p a {
@@ -241,6 +228,43 @@
 .activity_content p a:hover {
     color: var(--tomato);
 }
+
+
+
+.activity_img {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+  }
+
+  .activity_img img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); 
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .activity_img:hover .image-overlay {
+    opacity: 1;
+  }
+
+  .overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
 /* activity section end */
 
 .owl-dots {
