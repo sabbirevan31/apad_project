@@ -179,14 +179,7 @@
     padding: 60px 0px;
 }
 
-.activity_img {
-    display: grid;
-    grid-template-columns: auto auto;
-}
 
-.content {
-    padding: 10px;
-}
 .activity-head {
     color: var(--tomato);
     font-family: var(--font-family);
@@ -194,12 +187,60 @@
     text-align: center;
 }
 
-.activity_content p {
+.activity_content h2{
     font-family: var(--font-family);
-    font-size: var(--secondary-font-size);
-    padding-top: 10px;
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
 }
 
+.activity_content h2 a{
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--tomato);
+}
+
+.activity_content h2 a:hover{
+    color: var(--tomato);
+}
+
+.activity_content ul {
+    display: flex;
+}
+.activity_content ul li{
+    font-family: var(--font-family);
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+.activity_content ul li a{
+    font-family: var(--font-family);
+    font-size: 11px;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    color: black;
+}
+
+.activity_content p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    color: black;
+    padding: 10px;
+}
+
+.activity_content p a {
+    font-family: var(--font-family);
+    font-size: var(--secondary-font-size);
+    color: black;
+    text-decoration: none;
+}
+
+.activity_content p a:hover {
+    color: var(--tomato);
+}
 /* activity section end */
 
 .owl-dots {
@@ -272,22 +313,31 @@
 .tab-pane img {
     width: 109%;
     padding: 8px;
-}
+} 
 
 .gallary-button {
-    text-align: center;
-    display: block;
+    width: 120px;
     margin: auto;
-}
-.gallary-button a {
-    font-family: var(--font-family);
-    text-decoration: none;
+    margin-top: 25px;
+  
+  }
+  
+  .gallary-button a {
     background-color: var(--tomato);
-    color: var(--white);
-    font-size: var(--button-font-size);
-    padding: 5px 10px;
+    width: 120px;
+    margin: auto;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
     border-radius: 3px;
-}
+  
+  }
+  
+  .gallary-button a:hover {
+    background-color: black;
+    color: #fff;
+  }
 /* photo gallery end */
 
 /* contact section start */
