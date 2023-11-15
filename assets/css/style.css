@@ -104,6 +104,20 @@
     transform-origin: left;
 }
 
+.carousel-control-prev-icon {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    padding: 10px;
+}
+
+.carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    padding: 10px;
+}
+
 /* navegation section */
 
 /* hero section start */
