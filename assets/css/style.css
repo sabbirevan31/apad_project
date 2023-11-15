@@ -104,11 +104,31 @@
     transform-origin: left;
 }
 
+/* navegation section */
+
+/* hero section start */
+.carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    width: 40%;
+    margin-left: 600px;
+}
+
+.carousel-caption h1 {
+    text-align: right;
+    font-size: 40px;
+    background-color: var(--tomato);
+}
+
 .carousel-control-prev-icon {
     height: 40px;
     width: 40px;
     background-color: black;
     padding: 10px;
+    display: inline-block;
 }
 
 .carousel-control-next-icon {
@@ -116,14 +136,7 @@
     width: 40px;
     background-color: black;
     padding: 10px;
-}
-
-/* navegation section */
-
-/* hero section start */
-.carousel-item img {
-    height: 100vh;
-    object-fit: cover;
+    display: inline-block;
 }
 /* hero section end */
 
@@ -256,6 +269,16 @@
     object-fit: cover;
   }
 
+  .activity_img h5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 12px;
+    padding: 4px 5px;
+    background-color: var(--tomato);
+    color: #fff;
+  }
+
   .image-overlay {
     position: absolute;
     top: 0;
@@ -331,26 +354,23 @@
     background-color: var(--tomato);
     margin: 6px;
     color: var(--white);
-}
-
-.nav .nav-item:hover {
-    background-color: rgb(32, 32, 32);;
-    color: var(--white);
+    border-radius: 5px;
 }
 
 .nav .nav-item .nav-link {
-    background-color: var(--tomato);
     color: var(--white);
     font-size: 13px;
 }
-.nav .nav-item .nav-link:hover {
-    background-color: rgb(32, 32, 32);;
-    color: var(--white);
+
+.nav-pills .nav-link.active {
+    color: white !important;
+    background-color: rgb(14, 13, 13) !important; 
 }
 
 .tab-pane img {
-    width: 109%;
-    padding: 8px;
+    width: 100%;
+    margin-top: 20px;
+    height: 100%;
 } 
 
 .gallary-button {
@@ -832,12 +852,12 @@
 /* leaflet html */
 
 #leaflet_hero {
-    background-image: url(..//img/media_center/leaflet/ny.jpg);
+    background-image: url(..//img/home/slider1.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 400px;
 }
 
 #leaflet_hero h1 {
@@ -846,7 +866,8 @@
     justify-content: center;
     font-weight: 800;
     color: var(--tomato);
-    height: 300px;
+    font-size: 66px;
+    height: 400px;
 }
 
 .leaflet-img img {
@@ -974,12 +995,12 @@
 /* contact html */
 
 #contact_hero {
-    background-image: url(..//img/media_center/leaflet/ny.jpg);
+    background-image: url(..//img/home/slider1.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 370px;
 }
 
 #contact_hero h1 {
@@ -988,7 +1009,7 @@
     justify-content: center;
     font-weight: 800;
     font-size: 50px;
-    height: 300px;
+    height: 350px;
     color: var(--tomato);
 }
 
