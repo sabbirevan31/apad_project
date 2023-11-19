@@ -11,7 +11,7 @@
     --font-family: 'Sora';
     --tomato: rgb(235, 92, 35);
     --primary-font-size: 26px;
-    --secondary-font-size: 13px;
+    --secondary-font-size: 15px;
     --white: white;
     --button-font-size: 14px;
 }
@@ -170,6 +170,14 @@
     margin-top: 20px;
 }
 
+.about_testimonial p {
+    line-height: 1.8rem;
+    font-size: var(--secondary-font-size);
+    font-family: var(--font-family);
+    margin-top: 20px;
+    text-align: justify;
+}
+
 .about_video {
     padding-top: 80px;
     text-align: center;
@@ -196,7 +204,6 @@
     font-family: var(--font-family);
     font-size: var(--primary-font-size);
     color: var(--tomato);
-    padding-bottom: 30px;
 }
 
 /* anniversary section */
@@ -340,7 +347,7 @@
 
 /* photo gallery start */
 #photo_gallery {
-    padding: 60px 0px;
+    padding: 10px 0px;
 }
 
 .gallery_head {
@@ -376,7 +383,8 @@
 .gallary-button {
     width: 120px;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
   
   }
   
@@ -515,8 +523,9 @@
     font-family: var(--font-family);
     font-size: 18px;
     text-align: center;
-    line-height: 2.1rem;
+    line-height: 2rem;
     padding-top: 70px;
+    text-align: justify;
 }
 
 .about-content img {
