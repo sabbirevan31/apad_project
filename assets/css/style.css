@@ -862,12 +862,18 @@
 
 /* release section start */
 
+.press_releasa {
+    padding-bottom: 40px;
+}
 .releasa-img img {
     width: 100%;
 }
 /* release section end */
 
 /* leaflet html */
+.leaflet_contant {
+    padding: 40px 0px;
+}
 
 #leaflet_hero {
     background-image: url(..//img/home/slider1.jpg);
